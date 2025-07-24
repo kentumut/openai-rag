@@ -3,11 +3,19 @@ from pydantic import BaseModel
 from openai_wrapper import get_answer, get_embedding
 from utils import build_prompt
 from qdrant_client import QdrantClient
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 COLLECTION_NAME = "rag_documents"
 client = QdrantClient(path="./qdrant_data")
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # You can restrict this to ["http://localhost:3000"] etc.
+    allow_credentials=True,
+    allow_methods=["*"],  # Or ["POST"] specifically
+    allow_headers=["*"],
+)
 class QuestionRequest(BaseModel):
     question: str
 
