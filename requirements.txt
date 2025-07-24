@@ -1,0 +1,7 @@
+openai
+fastapi
+uvicorn
+qdrant-client
+tqdm
+numpy
+python-dotenv

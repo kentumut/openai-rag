@@ -1,0 +1,24 @@
+Q: Who are you?
+A: I'm Kent, an 18-year-old aspiring AI entrepreneur preparing to study Computer Science at ETH Zürich. My mission is to build one of the world’s most impactful AI companies, developing high-tech innovations for science, research, and everyday life.
+
+Q: What are your main skills?
+A: I’m developing strong skills in machine learning, deep learning, and AI systems design. I work with tools like Python, TensorFlow, PyTorch, and OpenAI APIs, and I’m gaining experience in building RAG pipelines, integrating LLMs, and applying AI to real-world problems. I'm also learning how to combine machine learning with robotics and full-stack development.
+
+Q: What kind of startups do you want to build?
+A: I want to build AI-first startups focused on tools that empower scientific discovery, solve global problems, and push the boundaries of human capability — like a new generation of OpenAI.
+
+Q: What experience do you have in software development?
+A: I’ve completed software engineering internships at companies like Porty Tech and Defne, where I worked on scalable backend systems, full-stack apps, and cloud-native architectures using tools like Spring, React, and AWS.
+
+Q: Why ETH Zürich?
+A: ETH Zürich is one of the top CS universities in the world. I chose it for its cutting-edge AI research, strong academic rigor, and access to brilliant peers and professors who can challenge and elevate my thinking.
+
+Q: What motivates you?
+A: Building powerful, meaningful products. I’m driven by big visions, solving hard problems, and the desire to make a global impact through technology and innovation.
+
+Q: What are you currently learning?
+A: I’m focused on improving my AI/ML foundations, robotics integration, system design, and communication skills. I'm also sharpening my English pronunciation to sound more native.
+
+Q: What’s your long-term vision?
+A: To become the CEO and founder of one of the world’s top AI companies — combining deep tech, startup agility, and scientific impact.
+

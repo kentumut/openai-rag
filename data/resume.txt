@@ -1,0 +1,53 @@
+﻿Kent Umut
+Istanbul, Turkey| P: +90 5465368688 | kentumut4@gmail.com
+
+EDUCATION	
+
+
+Bachelor Computer Science - ETH Zürich 	Zürich, Sep 2025- Current
+Incoming Computer Science student at ETH Zürich, Switzerland’s leading university and ranked #7 worldwide for Computer Science (QS 2025). ETH is globally recognized for its excellence in technology, AI research, and producing pioneers such as Albert Einstein.	
+St. Georg Austrian High School	Istanbul, Sep 2020 -  Jun 2025
+St. Georg College is an Austrian high school with a rigorous German-language curriculum, admitting only the top 0.5% of students nationwide. Graduated with 1.1 Matura (equivalent to GPA 4.0/4.0) and a diploma score of 94.12%, one of the highest distinctions at the school.	
+Ranked #1 in GPA for 3 consecutive years in a highly competitive environment.
+President of the school’s Model United Nations (MUN) club; organized a conference with 200+ participants.
+WORK EXPERIENCE	
+
+
+Defne Telecommunications - Software Engineer  (5G Telecom Software)                                Istanbul, Jun 2024 – Jun 2025
+Developed scalable, high-performance telecom solutions using Java and Spring Framework
+Designed and implemented robust backend systems and integrated RESTful APIs
+Collaborated on CI/CD pipelines and DevOps practices to streamline deployments
+Contributed to full-stack development with React.js, Node.js, and TypeScript
+Defne Telecommunications - Software Engineering Intern (5G Telecom Software)	Istanbul, Dec 2023 – Jun 2024
+Gained hands-on experience in software development, Java programming, and DevOps practices by working on real-world projects.		 
+Developed proficiency in Java, focusing on object-oriented programming, data structures, and algorithms 
+Worked with version control (Git) and contributed to collaborative coding workflows.
+Learned the fundamentals of DevOps, including CI/CD pipelines and cloud-based deployments.
+Built, tested, and deployed small-scale applications to reinforce programming concepts.
+Porty Tech - Software Engineering Intern (startup with 1+ Million Dolar investments)           Istanbul, May 2023 – Nov 2023
+Contributed to full-stack development, focusing on both the user-facing mobile app and backend infrastructure
+Enhanced cross-platform mobile experience using React Native and TypeScript
+Built and integrated dynamic front-end components using React.js, improving user interaction for powerbank rentals
+Collaborated on backend services and APIs using Spring Framework, ensuring system reliability and scalability
+Gained practical experience in managing cloud-based deployments and rapid iteration cycles common in startup settings
+COURSES	
+
+
+Supervised Machine Learning: Regression and Classification (DeepLearning.AI)	Jun 2025
+Learned the foundations of supervised learning, including linear and logistic regression.
+Applied Python libraries (NumPy, Pandas, Scikit-learn) for building and evaluating ML models.
+Developed skills in feature engineering, overfitting prevention, and performance evaluation (ROC, precision-recall).
+Stanford Algorithms Specialization	August 2024
+Algorithm Design & Analysis: Gained a deep understanding of designing efficient algorithms, including divide-and-conquer, dynamic programming, and greedy approaches.
+Complexity Analysis: Proficient in Big-O analysis for time and space complexity.
+Graph Algorithms: Mastered fundamental graph algorithms, such as shortest paths (Dijkstra, Bellman-Ford), minimum spanning trees (Kruskal, Prim), and graph traversal techniques (BFS, DFS).
+Data Structures: Proficient in heaps, hash tables, trees, and graphs for problem-solving.
+
+Harvard CS50x	Nov 2023
+Programming: Proficient in C, Python, JavaScript; strong grasp of syntax, data structures, and algorithms.
+Problem Solving: Enhanced analytical skills through complex computational challenges.
+Web Development: Basic knowledge of HTML, CSS, JavaScript, and Flask.
+Database Management: Basic understanding of SQL and database interaction.
+
+LANGUAGES
+Fluent in English and German both C1 level, Turkish (Native)
