@@ -9,7 +9,8 @@ client = OpenAI()
 def get_embedding(text: str) -> list[float]:
     res = client.embeddings.create(
         model="text-embedding-ada-002",
-        input=text
+        input=text,
+        temperature=0.0
     )
     return res.data[0].embedding
 
