@@ -24,7 +24,7 @@ client = QdrantClient(path="./qdrant_data")
 app.add_middleware(SlowAPIMiddleware)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["kentumut.com"],  # You can restrict this to ["http://localhost:3000"] etc.
+    allow_origins=["https://kentumut.com", "https://www.kentumut.com"],  # You can restrict this to ["http://localhost:3000"] etc.
     allow_credentials=True,
     allow_methods=["*"],  # Or ["POST"] specifically
     allow_headers=["*"],
