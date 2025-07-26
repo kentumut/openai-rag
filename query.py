@@ -13,7 +13,7 @@ class QuestionRequest(BaseModel):
 
 @router.post("/query")
 @limiter.limit("5/hour")
-def query_rag(request: Request, body: QuestionRequest):
+async def query_rag(request: Request, body: QuestionRequest):
     q_vec = get_embedding(body.question)
     hits = request.app.state.qdrant_client.search(
         collection_name="rag_documents",
@@ -22,8 +22,9 @@ def query_rag(request: Request, body: QuestionRequest):
     )
     contexts = [h.payload["text"] for h in hits]
     prompt   = build_prompt(contexts, body.question)
-    answer   = get_answer(prompt)
+    raw_answer   = get_answer(prompt)
+    clean_answer = raw_answer.rstrip("$ ").strip()
     return {
-        "answer":  answer,
+        "answer":  clean_answer,
         "sources": [h.payload["source"] for h in hits]
     }
