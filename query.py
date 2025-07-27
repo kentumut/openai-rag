@@ -1,7 +1,7 @@
 # routers/query.py
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
-from app import limiterfunc
+from main import limiterfunc
 from openai_wrapper import get_answer, get_embedding
 from utils import build_prompt
 
