@@ -23,8 +23,8 @@ app = FastAPI(
 )
 
 # Rate‑limit boilerplate
-limiter = Limiter(key_func=get_remote_address)
-app.state.limiter = limiter
+limiterfunc = Limiter(key_func=get_remote_address)
+app.state.limiter = limiterfunc
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Qdrant client on app.state
