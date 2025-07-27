@@ -1,5 +1,5 @@
 # settings.py
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 from fastapi.middleware.cors import CORSMiddleware
 
 class Settings(BaseSettings):
