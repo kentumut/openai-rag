@@ -22,7 +22,7 @@ async def query_rag(request: Request, body: QuestionRequest):
     contexts = [h.payload["text"] for h in hits]
     prompt   = build_prompt(contexts, body.question)
     raw_answer   = get_answer(prompt)
-    clean_answer = raw_answer.rstrip("$").strip()
+    clean_answer = raw_answer.strip().removesuffix("$")
     return {
         "answer":  clean_answer,
         "sources": [h.payload["source"] for h in hits]
