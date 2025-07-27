@@ -7,7 +7,7 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from qdrant_client import QdrantClient
-from query import router as query_router
+from deps import limiter
 
 # Collapse all middleware…
 middleware = [
@@ -24,11 +24,12 @@ app = FastAPI(
 
 # Rate‑limit boilerplate
 limiterfunc = Limiter(key_func=get_remote_address)
-app.state.limiter = limiterfunc
+app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Qdrant client on app.state
 app.state.qdrant_client = QdrantClient(path=settings.qdrant_path)
 
 # Routes
+from query import router as query_router
 app.include_router(query_router)

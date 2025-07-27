@@ -1,7 +1,7 @@
 # routers/query.py
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
-from main import limiterfunc
+from deps import limiter
 from openai_wrapper import get_answer, get_embedding
 from utils import build_prompt
 
@@ -11,7 +11,7 @@ class QuestionRequest(BaseModel):
     question: str
 
 @router.post("/query")
-@limiterfunc.limit("5/hour")
+@limiter.limit("5/hour")
 async def query_rag(request: Request, body: QuestionRequest):
     q_vec = get_embedding(body.question)
     hits = request.app.state.qdrant_client.search(
