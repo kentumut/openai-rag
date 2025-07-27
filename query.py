@@ -1,12 +1,11 @@
 # routers/query.py
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
-from slowapi import Limiter
+from app import limiter
 from openai_wrapper import get_answer, get_embedding
 from utils import build_prompt
 
 router = APIRouter()
-limiter = Limiter(key_func=lambda req: req.client.host)
 
 class QuestionRequest(BaseModel):
     question: str
