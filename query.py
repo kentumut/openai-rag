@@ -21,10 +21,8 @@ async def query_rag(request: Request, body: QuestionRequest):
     )
     contexts = [h.payload["text"] for h in hits]
     prompt   = build_prompt(contexts, body.question)
-    raw_answer   = get_answer(prompt)
-    print("DEBUG TRAIL:", repr(raw_answer[-10:]), [hex(ord(c)) for c in raw_answer[-10:]])
-    clean_answer = raw_answer.strip().removesuffix("$")
+    answer   = get_answer(prompt)
     return {
-        "answer":  clean_answer,
+        "answer":  answer,
         "sources": [h.payload["source"] for h in hits]
     }
