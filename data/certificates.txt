@@ -1,61 +1,40 @@
-Pandas Course
+Certificates:
 Pandas Course
 Kaggle
-Kaggle
-Issued Jul 2025
 Issued Jul 2025
 		Skills: Pandas (Software) · Data Science
 Supervised Machine Learning: Regression and Classification 
-Supervised Machine Learning: Regression and Classification 
-DeepLearning.AI
 DeepLearning.AI
 Issued Jun 2025
 Skills: Machine Learning · Jupyter
 Stanford Algorithms and Datastructures Course: Greedy Algorithms, Dynamic Programming
-Stanford Algorithms and Datastructures Course: Greedy Algorithms, Dynamic Programming
-Stanford Online
 Stanford Online
 Issued Aug 2024
-Issued Aug 2024
 		Stanford Algorithms and Data Structures Course: Divide and Conquer
-		Stanford Algorithms and Data Structures Course: Divide and Conquer
-		Stanford Online
 		Stanford Online
 		Issued Jun 2024
 		Stanford Algorithms and Data Structures Course: Graph Search, Shortest Paths
-		Stanford Algorithms and Data Structures Course: Graph Search, Shortest Paths
 		Stanford Online
-		Stanford Online
-		Issued Jun 2024ÖSD Sprachdiplom C1
+		Issued Jun 2024
 		ÖSD Sprachdiplom C1
-		ÖSD – Österreichisches Sprachdiplom Deutsch
 		ÖSD – Österreichisches Sprachdiplom Deutsch
 		Issued Jun 2024Qubit by Qubit's Introduction to Quantum Computing
 		Qubit by Qubit's Introduction to Quantum Computing
 		The Coding School
-		The Coding School
 		Issued May 2024
-		Issued May 2024
-		Harvard CS50x CourseHarvard CS50x CourseHarvard UniversityHarvard UniversityIssued Nov 2023Issued Nov 2023
+		Harvard CS50x Course
+		Harvard University
+		Issued Nov 2023
 		Skills: Cascading Style Sheets (CSS) · AJAX · Web Development · Software Development · jQuery · Data Structures · SQL · HTML · JavaScript · Jinja · Python · Programming · C (Programming Language) · Algorithms · Project Management · FlaskSkills: Cascading Style Sheets (CSS) · AJAX · Web Development · Software Development · jQuery · Data Structures · SQL · HTML · JavaScript · Jinja · Python · Programming · C (Programming Language) · Algorithms · Project Management · Flask
 		Introduction to Machine Learning
-		Introduction to Machine Learning
-		Global AI Hub
 		Global AI Hub
 		Issued Aug 2023
-		Issued Aug 2023
-		
 		Skills: Machine Learning · Software Development · Artificial Intelligence (AI) · Software · Python · Programming · Python (Programming Language)
 		Scientific Computing with Python
-		Scientific Computing with Python
 		freeCodeCamp
-		freeCodeCamp
-		Issued Sep 2022
 		Issued Sep 2022
 		
 		Skills: Software Development · Software · Python · Programming · Python (Programming Language)
-		
-		Math Olympics
 		Math Olympics
 		TÜBİTAK		
 		
